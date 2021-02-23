@@ -15,24 +15,14 @@ section
 
 .hlavicka
  {
-     padding: 110px 10% 40px 10%; 
+     padding: 80px 10% 60px 10%; 
      overflow: auto;
-     /*background-color: #FFF0F5;*/
-     background-image: url(podklady/hlavicka.jpg);
-     background-repeat: no-repeat;
+     background-color: #FFF0F5;
+     /*background-image: url(podklady/hlavicka.jpg);*/
+     /*background-repeat: no-repeat;
      background-position: center;
-     background-size: cover;
-     
+     background-size: cover;*/  
 }
-
-
-/*.hlavicka img{
-    width: 250px;
-    border-radius: 50%;
-    float: left;
-    margin: 0 40px 40px 0;   
-}*/
-
 
 .hlavicka h1{
     
@@ -40,36 +30,44 @@ section
     font-weight: 100;
     margin: 0;
     color:/* #FFC0CB #FFB6C1 #F0A3B7*/#E09F9B;
-    
-    
+    padding: 0;
 }
-/*.hlavicka img{
-    float: left;
-}*/
 
-.hlavicka p{
+.hlavicka h2{
+    font-size: 40px;
+    font-weight: 100;
+    margin: 0;
+    color:/* #FFC0CB #FFB6C1 #F0A3B7*/#E09F9B;
+    font-family: 'Satisfy', cursive, sans-serif;
+    padding:0;
+
+}
+
+.omne a{
    color:/* lightslategray*/#E09F9B;
 }
 
-.hlavicka a{
-    color:/* lightslategray*/#E09F9B;
-}
 
 .omne img{
     width: 250px;
-    border-radius:50%;
+    border-radius: 20px;
     float: left;
-    margin: 0 40px 40px 0;
-    padding-top: 40px;
+    margin: 0px 60px 30px 0;   
+}
 
+.omne p{
+    margin-top: 0px;   
+}
+
+.omne h1{
+    padding-bottom: 20px;   
 }
 
 h1{
     font-family: 'Satisfy', cursive, sans-serif;
     color: #E09F9B;
-    font-size: 50px;
+    font-size: 48px;
     margin: 0;
-
 }
 
 h2{

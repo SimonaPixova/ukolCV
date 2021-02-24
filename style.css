@@ -86,6 +86,14 @@ h2{
     
 }
 
+.prace img{
+    width: 350px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 60px;
+    border-radius: 50px 15px;;
+}
+
 .prace
  h1{
     border-top: 2px solid #E09F9B;  

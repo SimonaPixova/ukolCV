@@ -103,7 +103,7 @@ h2 {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color:/*#FFE4E1*/#DCDCDC;
+    background-color:/*#FFE4E1*//*#DCDCDC*//*#EDECEC;*/whitesmoke
 }
 
 .menu li{
@@ -112,7 +112,7 @@ h2 {
 
 .menu a{
     display: inline-block;
-    color: white;
+    color: #e09f9b;
     text-decoration: none;
     padding: 10px 30px; /*nefunguje padding nahoře, musíme z odkazu udělat řádkové blokový prvek - display*/
 }
@@ -121,7 +121,7 @@ h2 {
 .menu a:focus,
 .menu a:active
 {
-    background: lightpink;
+    background:white;
 }
 
 /*font-family: 'Open Sans', sans-serif;

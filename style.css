@@ -103,7 +103,7 @@ h2 {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color:/*#FFE4E1*//*#DCDCDC*//*#EDECEC;*/whitesmoke
+    background-color: rgb(73, 73, 73);/*#FFE4E1*//*#DCDCDC*//*#EDECEC;*/
 }
 
 .menu li{
@@ -114,7 +114,7 @@ h2 {
     display: inline-block;
     color: #e09f9b;
     text-decoration: none;
-    padding: 10px 30px; /*nefunguje padding nahoře, musíme z odkazu udělat řádkové blokový prvek - display*/
+    padding: 10px 50px; /*nefunguje padding nahoře, musíme z odkazu udělat řádkové blokový prvek - display*/
 }
 
 .menu a:hover,
